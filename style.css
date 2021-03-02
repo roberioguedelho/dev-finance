@@ -1,0 +1,161 @@
+
+
+/* Global =============================*/
+
+:root {
+    --darck-blue: #363f5f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #f0f2f5;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    
+    width: min(90vw, 600px);
+    margin: auto;
+}
+
+/* Titles=============================*/
+
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--darck-blue);
+    font-weight: normal;
+}
+
+
+/* header =============================*/
+header {
+
+   background: #2d4a22;
+   padding: 2rem 0 10rem;
+   text-align: center;
+    
+}
+
+#logo {
+
+    color: #fff;
+    font-weight:100;
+
+}
+
+/* Balance =============================*/
+
+#balance {
+
+    margin-top: -8rem;
+
+}
+
+#balance h2{
+    color:  white;
+    margin-top: 0rem;
+}
+
+/* Cards=============================*/
+
+.card {
+    background: white;
+     padding: 1.5rem 2rem;
+     border-radius: 0.25rem;
+     margin-bottom: 2rem;
+     color: var(--darck-blue);
+}
+
+.card h3 {
+
+    font-weight: normal;
+
+    font-size: 1rem;
+
+
+}
+
+.card p {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+.card.total {
+
+    background: #49aa26;
+    color: white;
+
+}
+
+
+/* Table=============================*/
+
+#data-table {
+
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: #969cb3;
+
+}
+
+table thead tr:first-child, 
+table tbody tr:first-child{
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+table th {
+    background: white;
+    font-weight: normal;
+    
+
+    padding: 1rem 2rem;
+    text-align: left;
+}
+
+table tbody tr {
+
+    opacity: 0.7;
+
+}
+
+table tbody tr:hover {
+    opacity: 1;
+}
+
+
+table td {
+    background: white;
+    padding: 1rem 2rem;
+
+}
+
+td.description {
+    color: var(--darck-blue);
+}
+
+td.income {
+    color: #12a454;
+}
+
+td.expense {
+    color: #e92929;
+}
+
+
+/* Footer=============================*/
+
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    color: var(--darck-blue);
+    opacity: 0.6;
+}
+
